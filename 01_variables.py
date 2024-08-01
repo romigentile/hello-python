@@ -1,5 +1,5 @@
 # Variables 
 
-myVariable = "Hola mundo"
+my_variable = "Hola mundo"
 
-print(myVariable)
+print(my_variable)
