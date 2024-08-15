@@ -39,4 +39,13 @@ print("Hola" < "Holaaaa")
 print("Hola" >= "Holaaaa")
 print("Hola" <= "Holaaaa")
 
+# Operadores logicos
+print("Operadores logicos")
+
+print(3>4 and "Hola" > "Holaaaa")
+print(3>4 or "Hola" > "Holaaaa")
+print(not 3>4)
+
+
+
 
