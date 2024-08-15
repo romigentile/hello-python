@@ -25,3 +25,15 @@ print(3 < 4)
 print(3 >= 4)
 print(3 <= 4)
 
+print(3>4 == 2)
+
+# Operadores comparativos para cadenas de texto
+
+print("Hola" == "Hola")
+print("Hola" != "Hola")
+print("Hola" > "Holaaaa")
+print("Hola" < "Holaaaa")
+print("Hola" >= "Holaaaa")
+print("Hola" <= "Holaaaa")
+
+
