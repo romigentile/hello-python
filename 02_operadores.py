@@ -39,8 +39,8 @@ print("Hola" < "Holaaaa")
 print("Hola" >= "Holaaaa")
 print("Hola" <= "Holaaaa")
 
-# Operadores logicos
-print("Operadores logicos")
+# Operadores logicos booleanos
+print("Operadores logicos booleanos")
 
 print(3>4 and "Hola" > "Holaaaa")
 print(3>4 or "Hola" > "Holaaaa")
