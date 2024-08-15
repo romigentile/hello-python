@@ -32,6 +32,7 @@ print("Operadores comparativos para cadenas de texto")
 
 print("Hola" == "Hola")
 print("Hola" == "Bola") #Es por peso de caracteres, no por length
+print(len("Hola") == len("Bola")) #aca si cuenta caracteres
 print("Hola" != "Hola")
 print("Hola" > "Holaaaa")
 print("Hola" < "Holaaaa")
