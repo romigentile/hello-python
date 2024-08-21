@@ -28,3 +28,5 @@ print(my_scape_string)
 name, surname, age = "Romi", "Gentile", 32
 
 print("Mi nombre es %s %s y mi edad es %d" % (name, surname, age)) # %s para strings, %d para enteros
+
+print("Mi nombre es {} {} y mi edad es {}".format(name, surname, age)) # {} para strings, {} para enteros
