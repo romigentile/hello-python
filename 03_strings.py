@@ -31,5 +31,5 @@ print("Mi nombre es %s %s y mi edad es %d" % (name, surname, age)) # %s para str
 
 print("Mi nombre es {} {} y mi edad es {}".format(name, surname, age)) # {} para strings, {} para enteros
 
-print(f"Mi nombre es {name} {surname} y mi edad es {age}")
+print(f"Mi nombre es {name} {surname} y mi edad es {age}") # inferencia de datos
 
