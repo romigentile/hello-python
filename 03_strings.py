@@ -50,5 +50,21 @@ print(f)
 language_slice = language[1:3]
 print(language_slice)
 
+language_slice = language[1:]
+print(language_slice)
+
+language_slice = language[:3]
+print(language_slice)
+
+language_slice = language[-2] # empieza desde el final
+print(language_slice)
+
+language_slice = language[0:6:2] # salta de 2 en 2
+print(language_slice)
+
+# Reversión
+
+reversed_language = language[::-1]
+print(reversed_language)
 
 
