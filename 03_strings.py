@@ -45,3 +45,10 @@ print(d)
 print(e)
 print(f)
 
+# Division
+
+language_slice = language[1:3]
+print(language_slice)
+
+
+
