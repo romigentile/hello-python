@@ -59,7 +59,7 @@ print(language_slice)
 language_slice = language[-2] # empieza desde el final
 print(language_slice)
 
-language_slice = language[0:6:2] # salta de 2 en 2
+language_slice = language[0:6:2] # salta de 2 en 2, pero es muy rebuscado
 print(language_slice)
 
 # Reversión
