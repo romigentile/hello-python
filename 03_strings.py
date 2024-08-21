@@ -91,3 +91,4 @@ print(language)
 
 print(language.split(","))
 
+print(language.upper().islower())
