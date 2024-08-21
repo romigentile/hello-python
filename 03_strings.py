@@ -22,3 +22,9 @@ print(my_tab_string)
 
 my_scape_string = "Hola mundo \\n con barra invertida"
 print(my_scape_string)
+
+# FORMATEO
+
+name, surname, age = "Romi", "Gentile", 32
+
+print("Mi nombre es %s %s y mi edad es %d" % (name, surname, age)) # %s para strings, %d para enteros
