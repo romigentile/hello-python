@@ -67,4 +67,27 @@ print(language_slice)
 reversed_language = language[::-1]
 print(reversed_language)
 
+# Funciones
+
+print(len(language))
+
+print(language.upper())
+
+print(language.lower())
+
+print(language.count("o"))
+
+print(language.capitalize())
+
+print(language.isnumeric())
+
+print("Python" in language)
+
+print("Hola" in language)
+
+print(language.replace("Python", "Java"))
+
+print(language)
+
+print(language.split(","))
 
