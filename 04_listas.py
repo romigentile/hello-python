@@ -16,3 +16,4 @@ my_other_list = [32, 1.64 , "Romi", "Gentile"]
 print(my_other_list)
 
 print(type(my_other_list))
+print(my_other_list[2])
