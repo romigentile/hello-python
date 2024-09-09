@@ -22,4 +22,6 @@ print(my_other_list[0:3])
 
 # print(my_other_list[4]) INDEX ERROR
 
+print(my_other_list.count("Romi")) # 
+
 
