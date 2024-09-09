@@ -46,3 +46,6 @@ print(my_other_list)
 my_pop_element = my_other_list.pop() # Elimina el ultimo elemento por defecto, si le pongo posicion borra esa
 print(my_pop_element)
 print(my_other_list)
+
+my_other_list.clear() # Borra la lista
+print(my_other_list)
