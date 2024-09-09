@@ -11,7 +11,7 @@ my_list = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 print(my_list)
 print(len(my_list))
 
-my_other_list = [32, 1.64 , "Romi", "Gentile", "Romi"]
+my_other_list = [32, 1.64 , "Romi", "Gentile"]
 
 print(my_other_list)
 
@@ -24,4 +24,7 @@ print(my_other_list[0:3])
 
 print(my_other_list.count("Romi")) # Sirve para contar los elementos iguales de la lista
 
+age, height, name, surname = my_other_list # No es por el nombre, es por la posicion
+
+print(name)
 
