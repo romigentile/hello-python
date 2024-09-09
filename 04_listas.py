@@ -18,5 +18,6 @@ print(my_other_list)
 print(type(my_other_list))
 print(my_other_list[2])
 print(my_other_list[-2])
+print(my_other_list[0:3])
 
 
