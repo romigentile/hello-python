@@ -52,3 +52,6 @@ print(my_other_list)
 
 # my_other_list.clear() # Borra la lista
 # print(my_other_list)
+
+my_copy_list = my_other_list.copy() # Crea una copia de la lista
+print(my_copy_list)
