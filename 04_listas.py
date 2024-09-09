@@ -42,3 +42,7 @@ print(my_other_list)
 my_other_list.remove("Femenino") # Elimina elementos de la lista
 
 print(my_other_list)
+
+my_other_list.pop() # Elimina el ultimo elemento por defecto
+
+print(my_other_list)
