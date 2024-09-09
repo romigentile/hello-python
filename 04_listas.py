@@ -47,5 +47,8 @@ my_pop_element = my_other_list.pop() # Elimina el ultimo elemento por defecto, s
 print(my_pop_element)
 print(my_other_list)
 
-my_other_list.clear() # Borra la lista
+my_other_list.insert(0, my_pop_element) # Inserta el elemento borrado en la posicion 0
 print(my_other_list)
+
+# my_other_list.clear() # Borra la lista
+# print(my_other_list)
