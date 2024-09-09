@@ -32,4 +32,4 @@ my_other_list.append("CABA") # Agrega elementos al final de la lista
 print(my_other_list)
 
 
-
+print(my_list + my_other_list)
