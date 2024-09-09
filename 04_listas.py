@@ -20,4 +20,6 @@ print(my_other_list[2])
 print(my_other_list[-2])
 print(my_other_list[0:3])
 
+# print(my_other_list[4]) INDEX ERROR
+
 
