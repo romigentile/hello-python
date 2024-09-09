@@ -24,7 +24,12 @@ print(my_other_list[0:3])
 
 print(my_other_list.count("Romi")) # Sirve para contar los elementos iguales de la lista
 
-age, height, name, surname = my_other_list # No es por el nombre, es por la posicion
+age, height, name, surname = my_other_list # No es por el nombre, es por la posicion. Lo desempaqueto
 
 print(name)
+
+my_other_list.append("CABA") # Agrega elementos al final de la lista
+print(my_other_list)
+
+
 
