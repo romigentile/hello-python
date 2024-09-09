@@ -55,3 +55,10 @@ print(my_other_list)
 
 my_copy_list = my_other_list.copy() # Crea una copia de la lista
 print(my_copy_list)
+
+print(my_other_list.index("Romi")) # Muestra la posicion del elemento
+
+
+my_other_list.reverse() # Revierte la lista
+
+print(my_other_list)
