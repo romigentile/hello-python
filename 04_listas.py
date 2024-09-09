@@ -35,3 +35,10 @@ print(my_other_list)
 print(my_list + my_other_list)
 
 
+my_other_list.insert(2, "Femenino") # Agrega elementos en una posicion especifica
+
+print(my_other_list)
+
+my_other_list.remove("Femenino") # Elimina elementos de la lista
+
+print(my_other_list)
