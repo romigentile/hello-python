@@ -1,5 +1,5 @@
 # Tuplas! 
-# La principal diferencia con las listas es que no tienen tantas operaciones como las listas.
+# La principal diferencia con las listas es que no tienen tantas operaciones como las listas. Si quiero una tupla mutable, en realidad quiero una lista.
 
 my_tuple = tuple()
 my_other_tuple = (1, 2, 3)
