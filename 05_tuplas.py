@@ -40,5 +40,5 @@ print(type(my_tuple))
 
 # la tupla se puede borrar
 
-del(my_tuple) 
+del(my_tuple) # del es propio de cualquier variable que le pasemos 
 # print(my_tuple) # NameError: name 'my_tuple' is not defined
