@@ -11,3 +11,4 @@ print(type(my_tuple))
 print(my_tuple[0])
 print(my_tuple[-1])
 
+print(my_tuple.count("Romi")) # Sirve para contar los elementos iguales de la lista
