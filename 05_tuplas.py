@@ -2,7 +2,7 @@
 # La principal diferencia con las listas es que no tienen tantas operaciones como las listas.
 
 my_tuple = tuple()
-my_other_tuple = ()
+my_other_tuple = (1, 2, 3)
 
 my_tuple = (32, 1.64 , "Romi", "Gentile")
 
@@ -18,3 +18,7 @@ print(my_tuple.index("Gentile")) # Sirve para encontrar el indice de la lista
 
 #my_tuple[0] = 33 # INDEXERROR No se puede cambiar el valor de una tupla, son valores constantes, al contrario de una lista
 
+my_sum_tuple = my_tuple + my_other_tuple
+print(my_sum_tuple)
+
+print(my_sum_tuple[3:6])
