@@ -13,3 +13,4 @@ print(my_tuple[-1])
 
 print(my_tuple.count("Romi")) # Sirve para contar los elementos iguales de la lista
 print(my_tuple.index("Gentile")) # Sirve para encontrar el indice de la lista
+#print(my_tuple.index("Hola")) # INDEXERROR
