@@ -25,5 +25,6 @@ print("Romii" in my_other_set_1)
 my_other_set_1.remove("CABA")
 print(my_other_set_1)
 
-
+my_other_set_1.clear() # lo limpia
+print(len(my_other_set_1))
 
