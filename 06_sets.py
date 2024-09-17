@@ -28,3 +28,11 @@ print(my_other_set_1)
 my_other_set_1.clear() # lo limpia
 print(len(my_other_set_1))
 
+
+# Esto no se suele hacer es muy arriesgado
+my_set = {"romi", 32, 1.64, "CABA"}
+my_list = list(my_set)
+print(my_list)
+print(type(my_list))
+print(my_list[0])
+
