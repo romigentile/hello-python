@@ -1,4 +1,4 @@
-## Sets: es un tipo de dato
+## Sets: es un tipo de dato. # un set no es una estructura ordenada como las listas. No tiene orden. Por eso no se puede acceder a los elementos. No acepta repetidos
 
 my_set = set()
 print(type(my_set))
@@ -16,6 +16,14 @@ print(len(my_other_set_1))
 
 # print(my_other_set_1[0]) # TypeError: 'set' object is not subscriptable
 
-my_other_set_1.add("CABA") # un set no es una estructura ordenada como las listas. No tiene orden. Por eso no se puede acceder a los elementos
+my_other_set_1.add("CABA") 
 print(my_other_set_1)
+
+print("CABA" in my_other_set_1)
+print("Romii" in my_other_set_1)
+
+my_other_set_1.remove("CABA")
+print(my_other_set_1)
+
+
 
