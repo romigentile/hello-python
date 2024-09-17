@@ -36,3 +36,7 @@ print(my_list)
 print(type(my_list))
 print(my_list[0])
 
+my_other_set_2 = {"JavaScript", "Python", "C"}
+
+my_new_set = my_set.union(my_other_set_2)
+print(my_new_set)
