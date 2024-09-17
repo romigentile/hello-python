@@ -16,4 +16,6 @@ print(len(my_other_set_1))
 
 # print(my_other_set_1[0]) # TypeError: 'set' object is not subscriptable
 
+my_other_set_1.add("CABA") # un set no es una estructura ordenada como las listas. No tiene orden.
+print(my_other_set_1)
 
