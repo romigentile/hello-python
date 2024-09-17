@@ -12,3 +12,8 @@ print(type(my_other_set_1))
 my_other_set_2 = set([1, 2, 3, 4, 5])
 print(type(my_other_set_2))
 
+print(len(my_other_set_1))
+
+# print(my_other_set_1[0]) # TypeError: 'set' object is not subscriptable
+
+
