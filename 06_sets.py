@@ -19,7 +19,7 @@ print(len(my_other_set_1))
 my_other_set_1.add("CABA") # añade elementos al set
 print(my_other_set_1)
 
-print("CABA" in my_other_set_1)
+print("CABA" in my_other_set_1) # existe en el set? TRUE or FALSE
 print("Romii" in my_other_set_1)
 
 my_other_set_1.remove("CABA") # lo remueve
