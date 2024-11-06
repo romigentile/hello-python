@@ -21,3 +21,9 @@ print(my_dict)
 
 print(len(my_other_dict))
 print(len(my_dict)) # cuenta las claves
+
+
+# Acceso a las claves
+
+print(my_dict["Nombre"])
+print(my_dict["Lenguajes"])
