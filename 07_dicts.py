@@ -27,3 +27,6 @@ print(len(my_dict)) # cuenta las claves
 
 print(my_dict["Nombre"])
 print(my_dict["Lenguajes"])
+
+my_dict["Nombre"] = "Gisela" # Actualizo la clave - lo cambia
+print(my_dict["Nombre"])
