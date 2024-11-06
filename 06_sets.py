@@ -38,7 +38,7 @@ print(my_list[0])
 
 my_other_set_2 = {"JavaScript", "Python", "C"}
 
-my_new_set_1 = my_set.union(my_other_set_2)
+my_new_set_1 = my_set.union(my_other_set_2) # union de sets
 print(my_new_set_1)
 
 my_new_set_2 = my_set.union(my_other_set_2).union({"Gentile"})
