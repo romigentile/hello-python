@@ -1,1 +1,5 @@
-# Comenzamos a trabajar con diccionarios
+# Comenzamos a trabajar con diccionarios -
+
+my_dict = dict() # constructor
+print(type(my_dict))
+
