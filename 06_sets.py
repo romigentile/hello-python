@@ -29,7 +29,7 @@ my_other_set_1.clear() # lo limpia
 print(len(my_other_set_1))
 
 
-# Esto no se suele hacer es muy arriesgado
+# Esto no se suele hacer es muy arriesgado pq no se conoce el orden de la lista
 my_set = {"romi", 32, 1.64, "CABA"}
 my_list = list(my_set)
 print(my_list)
