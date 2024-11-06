@@ -13,8 +13,11 @@ my_dict = {
     "Nombre": "Romina", 
     "Apellido": "Gentile", 
     "Edad": 32, 
-    "Lenguajes": {"Python", "C", "Javascript"} # como valor es un set
+    "Lenguajes": {"Python", "C", "Javascript"}, # como valor es un set
+    1: 36763885
     }
 
 print(my_dict)
-print(my_other_dict)
+
+print(len(my_other_dict))
+print(len(my_dict)) # cuenta las claves
