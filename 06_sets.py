@@ -1,4 +1,4 @@
-## Sets: es un tipo de dato. # un set no es una estructura ordenada como las listas. No tiene orden. Por eso no se puede acceder a los elementos. No acepta repetidos
+## Sets: es un tipo de dato. # un set no es una estructura ordenada como las listas. No tiene orden. Por eso no se puede acceder a los elementos. No acepta repetidos # Si no coloco el constructos set() y lo defino con {} se crea como un diccionario, hasta que le pongo datos, donde ahi se vuelve set
 
 my_set = set()
 print(type(my_set))
