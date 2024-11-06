@@ -44,3 +44,5 @@ print(my_new_set_1)
 my_new_set_2 = my_set.union(my_other_set_2).union({"Gentile"})
 print(my_new_set_2)
 
+print(my_new_set_1.difference(my_set)) # imprime lo que tienen como diferencia
+
