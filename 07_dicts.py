@@ -43,3 +43,6 @@ del my_dict["Ciudad"] # elimina clave y valor
 print(my_dict)
 
 # my_dict.pop("Ciudad") # elimina clave y valor
+
+print("Gentile" in my_dict) # siempre sera FALSE pq asi busco por clave no por valor
+print("Nombre" in my_dict) # aca si dara TRUE pq existe esa clave
