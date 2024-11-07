@@ -58,3 +58,14 @@ print(my_new_dict)
 
 my_new_dict = my_dict.fromkeys(my_dict) # genera claves sin valor de un diccionario existente, genera una copia de lo que le paso
 print(my_new_dict)
+
+my_new_dict = my_dict.fromkeys(my_dict, ("romigentile", "developer")) # le pongo ese valor a todas las claves
+print(my_new_dict)
+
+my_new_dict = my_dict.fromkeys(my_dict,)
+print(my_new_dict)
+
+print(my_dict.values())
+print(list(my_dict))
+print(tuple(my_dict))
+print(set(my_dict))
