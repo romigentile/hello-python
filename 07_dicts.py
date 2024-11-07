@@ -45,4 +45,13 @@ print(my_dict)
 # my_dict.pop("Ciudad") # elimina clave y valor
 
 print("Gentile" in my_dict) # siempre sera FALSE pq asi busco por clave no por valor
-print("Nombre" in my_dict) # aca si dara TRUE pq existe esa clave
+print("Apellido" in my_dict) # aca si dara TRUE pq existe esa clave
+
+print(my_dict.items()) # retorna el diccionario - listado de cada uno de los items
+
+print(my_dict.keys()) # retorna un listado de las claves
+
+print(my_dict.values()) # retorna los valores que hay en las claves
+
+my_new_dict = my_dict.fromkeys(("Nombre", 1, "Pais"))
+print(my_new_dict)
