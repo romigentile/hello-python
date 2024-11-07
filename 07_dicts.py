@@ -55,3 +55,6 @@ print(my_dict.values()) # retorna los valores que hay en las claves
 
 my_new_dict = my_dict.fromkeys(("Nombre", 1, "Pais")) # genera claves sin valor
 print(my_new_dict)
+
+my_new_dict = my_dict.fromkeys(my_dict) # genera claves sin valor, genera una copia de lo que le paso
+print(my_new_dict)
