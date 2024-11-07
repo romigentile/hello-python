@@ -30,3 +30,9 @@ print(my_dict["Lenguajes"])
 
 my_dict["Nombre"] = "Gisela" # Actualizo la clave - lo cambia
 print(my_dict["Nombre"])
+
+print(my_dict[1])
+
+my_dict["Ciudad"] = "CABA" # Se agrega nueva clave y valor al diccionario
+print(my_dict)
+
