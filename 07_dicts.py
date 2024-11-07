@@ -36,3 +36,10 @@ print(my_dict[1])
 my_dict["Ciudad"] = "CABA" # Se agrega nueva clave y valor al diccionario
 print(my_dict)
 
+# my_dict.clear() # vacia el diccionario
+# print(my_dict)
+
+del my_dict["Ciudad"] # elimina clave y valor
+print(my_dict)
+
+# my_dict.pop("Ciudad") # elimina clave y valor
