@@ -12,6 +12,8 @@ if my_condition == 10:
 
 if my_condition > 10 and my_condition < 20:
     print("Es mayor que 10 y menor a 20")
+elif my_condition > 20:
+    print("Es mayor a 20")
 else:
     print("Es menor o igual que 10 o mayor o igual a 20")
 
