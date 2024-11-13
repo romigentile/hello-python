@@ -19,6 +19,10 @@ else:
 
 print("La ejecucion continua")
 
+my_string = "asdf" # Si pongo solo "" me da false
+
+if my_string:
+    print("No esta vacio")
 
 
 
