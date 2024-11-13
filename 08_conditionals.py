@@ -7,8 +7,11 @@ if my_condition:
 
 my_condition = 5*2
 
-if my_condition == 9:
+if my_condition == 10:
     print("Se ejecuta la condicion del segundo if")
+
+if my_condition > 10:
+    print("Se ejecuta la condicion del tercer if")
 
 print("La ejecucion continua")
 
