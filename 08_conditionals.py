@@ -24,7 +24,10 @@ my_string = "asdf" # Si pongo solo "" me da false
 if my_string:
     print("No esta vacio")
 
-
+if my_string == "asdff" :
+    print("Las cadenas de texto coinciden")
+else:
+    print("Las cadenas de texto no coinciden")
 
 
 
