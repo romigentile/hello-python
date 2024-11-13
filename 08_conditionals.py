@@ -11,7 +11,9 @@ if my_condition == 10:
     print("Se ejecuta la condicion del segundo if")
 
 if my_condition > 10:
-    print("Se ejecuta la condicion del tercer if")
+    print("Es mayor que 10")
+else:
+    print("Es menor o igual que 10")
 
 print("La ejecucion continua")
 
