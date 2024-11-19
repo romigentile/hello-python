@@ -19,3 +19,10 @@ while my_condition < 20:
         break
 
     print(my_condition)
+
+# FOR 
+
+my_list = [35, 24, 62, 52, 30, 30, 17]
+
+for element in my_list:
+    print(element)
