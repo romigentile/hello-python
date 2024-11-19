@@ -11,3 +11,11 @@ else:
     print("Mi condicion es > = 10") # cuando pasa el 10 se va al else, sale del bucle, permite mas control de la condicion
 
 print("Sale del bucle")
+
+while my_condition < 20:
+    my_condition += 2
+    if my_condition == 16:
+        print("Mi condicion es = 16")
+        break
+
+    print(my_condition)
